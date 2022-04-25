@@ -1,9 +1,9 @@
-import Book from './Book.js';
-import Library from './Library.js';
-import list from './components/List.js';
-import add from './components/Add.js';
-import contact from './components/Contact.js';
-import { DateTime } from './luxon.js';
+import Book from './modules/Book.js';
+import Library from './modules/Library.js';
+import list from './modules/components/List.js';
+import add from './modules/components/Add.js';
+import contact from './modules/components/Contact.js';
+import { DateTime } from './modules/luxon.js';
 
 const app = document.querySelector('#app');
 const dateTime = document.querySelector('#date-time');
