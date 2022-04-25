@@ -10,9 +10,9 @@ export default class Library {
   }
 
    addBook = (book) => {
-    this.books.push(book);
-    this.#saveIntoStorage();
-  }
+     this.books.push(book);
+     this.#saveIntoStorage();
+   }
 
   removeBook = (id, booksList) => {
     for (let i = 0; i < this.books.length; i += 1) {
@@ -29,13 +29,13 @@ export default class Library {
   }
 
    load = (bookList) => {
-    const booksData = JSON.parse(localStorage.getItem('books'));
-    if (booksData) {
-      this.books = [];
-      for (let i = 0; i < booksData.length; i += 1) {
-        this.books.push(booksData[i]);
-        insertBookIntoDom(booksData[i], bookList);
-      }
-    }
-  }
+     const booksData = JSON.parse(localStorage.getItem('books'));
+     if (booksData) {
+       this.books = [];
+       for (let i = 0; i < booksData.length; i += 1) {
+         this.books.push(booksData[i]);
+         insertBookIntoDom(booksData[i], bookList);
+       }
+     }
+   }
 }
