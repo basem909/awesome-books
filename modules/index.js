@@ -3,6 +3,7 @@ import Library from './Library.js';
 import list from './components/List.js';
 import add from './components/Add.js';
 import contact from './components/Contact.js';
+import { DateTime } from "./luxon.js";
 
 const app = document.querySelector('#app');
 const dateTime = document.querySelector('#date-time');
@@ -28,7 +29,7 @@ document.addEventListener('click', (e) => {
   library.removeBook(id, booksList);
 });
 
-dateTime.textContent = new Date().toLocaleString();
+dateTime.textContent = DateTime.now()
 
 function addBook() {
   const bookForm = document.querySelector('#book-form');
