@@ -4,6 +4,8 @@
 
 - This project aims to create a javascript-based project to develop a UI site that takes data from the user and shows it on the screen and enables the user to remove data as well.
 - The awesome book is a list of books the user could add to it and remove books from it and the entire data is saved on the local storage of the user.
+- The project follows ES6 best pratices and contains luxon liberary from which it retrieved time and date.
+- The project also uses the arrow function to activate the event listner.
 
 
 ## Built With
@@ -16,6 +18,7 @@
 - hintweb
 - stylint
 - eslint
+- luxonnpm
 
 
 
