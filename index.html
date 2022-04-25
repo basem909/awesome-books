@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+  <body>
+    <nav class="flex justify-between items-center px-5 py-2 bg-gray border">
+      <a href="#" class="text-black">Awesome Books</a>
+      <ul class="flex">
+        <li><a href="#" data-link="/" class="nav-link px-1 text-black">List</a></li>
+        <li><a href="#" data-link="/add" class="nav-link px-1 text-black border-left">Add New</a></li>
+        <li><a href="#" data-link="/contact" class="nav-link px-1 text-black border-left">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="flex flex-end px-5 py-2" id="date-time"></div>
+    <div id="app" class="py-5"></div>
+
+    <footer class="py-2 px-5 bg-gray text-black border fixed b-0 w-full">
+      <h4>Copyrights ...</h4>
+    </footer>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
