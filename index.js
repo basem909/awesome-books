@@ -29,7 +29,7 @@ document.addEventListener('click', (e) => {
   library.removeBook(id, booksList);
 });
 
-dateTime.textContent = DateTime.now();
+dateTime.textContent = `Date:${DateTime.now().day}-${DateTime.now().month}-${DateTime.now().year} Time:${DateTime.now().hour}:${DateTime.now().minute}:${DateTime.now().second}`;
 
 function addBook() {
   const bookForm = document.querySelector('#book-form');
