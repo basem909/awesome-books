@@ -15,6 +15,7 @@
 - lighthouse
 - hintweb
 - stylint
+- eslint
 
 
 
@@ -27,10 +28,6 @@
 👤 **Aimal Amiri**
 
 - GitHub: [@githubhandle](https://github.com/aimalamiri)
-## Credits to
-
-
-
 
 ## Show your support
 
@@ -44,9 +41,9 @@ This project is MIT licensed.
 
 To get a local copy up and running follow these simple example steps.
 
-- copy this link `https://github.com/aimalamiri/Awesome-Books.git`.
-- get the directory that you want to clone the repository.
-- open the command prompt in this directory.
-- write `git clone https://github.com/aimalamiri/Awesome-Books.git`.
-- go to the repository folder in your command prompt, run `cd Awesome-Books`.
-- run `npm install`
+- Copy this link `https://github.com/aimalamiri/Awesome-Books.git`.
+- Get the directory that you want to clone the repository.
+- Open the command prompt in this directory.
+- Write `git clone https://github.com/aimalamiri/Awesome-Books.git`.
+- Go to the repository folder in your command prompt, run `cd Awesome-Books`.
+- Run `npm install`
