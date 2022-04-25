@@ -1,4 +1,4 @@
-export default function add() {
+ const add = () => {
   return `
       <h2 class="text-center">Add a new book</h2>
       <form action="#" id="book-form" class="text-center w-half mx-auto">
@@ -23,3 +23,4 @@ export default function add() {
       </form>
   `;
 }
+export default add;

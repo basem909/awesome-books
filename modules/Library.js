@@ -9,12 +9,12 @@ export default class Library {
     localStorage.setItem('books', JSON.stringify(this.books));
   }
 
-  addBook(book) {
+   addBook = (book) => {
     this.books.push(book);
     this.#saveIntoStorage();
   }
 
-  removeBook(id, booksList) {
+  removeBook = (id, booksList) => {
     for (let i = 0; i < this.books.length; i += 1) {
       if (this.books[i].id === Number(id)) {
         this.books.splice(i, 1);
@@ -28,7 +28,7 @@ export default class Library {
     }
   }
 
-  load(bookList) {
+   load = (bookList) => {
     const booksData = JSON.parse(localStorage.getItem('books'));
     if (booksData) {
       this.books = [];
